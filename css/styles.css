@@ -55,7 +55,7 @@ display: flex;
 display: block;
 padding-top: 24px;
 padding-bottom: 25px;
-margin-right: 86px;
+margin-right: 85px;
 }
 .logo-web {
 color: var(--accent-color);
@@ -127,7 +127,6 @@ padding-bottom: 32px;
 
 color: var(--primary-text-color);
 text-decoration: none;
-
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -159,7 +158,6 @@ font-size: 16px;
 line-height: 1.87;
 text-align: center;
 letter-spacing: 0.06em;
-border: 1px solid transparent; /*узнать нужна рамка прозрачная в дз или нет*/
 border-radius: 4px;
 padding: 10px 32px;
 min-width: 200px;
@@ -168,7 +166,18 @@ text-align: center;
 }
 /*Наши преимушества*/
 .advantages{
-  display: flex;
+display: flex;
+ 
+}
+.advantages > .item {
+margin-right: 30px;
+}
+.advantages > .item:last-child {
+margin-right: 0px;
+}
+.advantages .link {
+display: block;
+margin-bottom: 30px;
 }
 .advantages h3 {
 color:var(--title-text-color);
@@ -176,26 +185,41 @@ font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
-margin-top: 30px;
 margin-bottom: 10px;
 }
 .advantages p {
 font-size: 14px;
 line-height: 1.71;
-margin-top: 0px;
-margin-bottom: 0px;
-
+margin-bottom: 94px;
+}
+.img {
+display: block;
+text-align: center;
+background-color: var(--background-color);
 }
 
 /*Чем мы занимаемся*/
-.section .name,
-.section-comand .name {
+.section .name {
 color:var(--title-text-color);
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
-margin: 94px 0px 50px;
+padding-top: 94px;
+padding-bottom: 50px;
+}
+.work-list{
+display: flex;
+justify-content: center;
+}
+.work-list .link {
+  display: block;
+}
+.work-list .item {
+margin-right: 30px;
+}
+.work-list .item:last-child {
+margin-right: 0px;
 }
 .section .title {
 color:var(--white-color);
@@ -205,13 +229,19 @@ font-size: 14px;
 line-height: 1.14;
 text-align: center;
 text-transform: uppercase;
-}
-.work-list{
-  display: flex;
+padding-top: 27px;
+padding-bottom: 27px;
 }
 
-}
 /*Наша команда*/
+.section-comand .name {
+color:var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+margin: 94px 0px 50px;
+}
 .section-comand {
 background-color: var(--background-color);
 }
@@ -320,12 +350,13 @@ margin-bottom: 0px;
 }
 
 .container{
-width: 1230px;
+width: 1170px;
 padding-left: 15px;
 padding-right: 15px;
 margin-left: auto;
 margin-right: auto;
-outline: 1px solid green;
+background-color: khaki;
+outline: 1px solid violet;
 }
 
 
