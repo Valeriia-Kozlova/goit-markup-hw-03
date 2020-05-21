@@ -217,6 +217,7 @@ justify-content: center;
 }
 .work-list .item {
 margin-right: 30px;
+margin-bottom: 94px;
 }
 .work-list .item:last-child {
 margin-right: 0px;
@@ -234,39 +235,88 @@ padding-bottom: 27px;
 }
 
 /*Наша команда*/
+.section-comand {
+background-color: var(--background-color);
+}
+
 .section-comand .name {
 color:var(--title-text-color);
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
-margin: 94px 0px 50px;
-}
-.section-comand {
-background-color: var(--background-color);
-}
-.section-comand .name {
-color:var(--title-text-color);
-}
-.section-comand .title {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-}
-.section-comand p {
-font-size: 16px;
-line-height: 1.19;
-}
-.section-comand .title {
-color: var(--title-text-color);
+padding: 94px 0px 50px;
 }
 .comand-list {
 display: flex;
+justify-content: center;
+padding-bottom: 94px;
+}
+.section-comand .item:not(:last-child) {
+margin-right: 30px; 
+}
+.section-comand .item {
+background-color: var(--white-color);
+border-radius: 4px;
+}
+.comand-list .link {
+display: block;
+}
+
+.section-comand .title {
+color: var(--title-text-color);
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+
+padding-top: 30px;
+padding-bottom: 10px;
+}
+.section-comand .text {
+font-size: 16px;
+line-height: 1.19;
+text-align: center; 
+padding-bottom: 28px;
+}
+.networks {
+display: flex;
+justify-content:center;
+}
+.networks .item {
+margin-right: 39px;
+padding-bottom: 36px;
+}
+.networks .item:last-child {
+margin-right: 0px;
 }
 /*Постоянные клиенты*/
-.customers-list {
-  display: flex;
+.customers .name {
+color:var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+
+padding-top: 94px;
+padding-bottom: 50px;
 }
+.customers-list {
+display: flex;
+justify-content: center;
+}
+.customers-list .item {
+margin-right: 30px;
+padding-bottom: 94px;
+}
+.customers-list .item:last-child {
+margin-right: 0px;
+}
+.customers-list .link {
+display: block;
+}
+
 /*Футер*/
 .footer {
 background: var(--background-footer);
