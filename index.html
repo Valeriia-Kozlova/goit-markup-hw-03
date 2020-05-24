@@ -17,10 +17,10 @@
   <body>
     <!--шапка-->
     <header>
-<div class="page-header container">
+<div class="header container">
       <nav class="main-nav">
-        <a href="#" class="link-logo">
-          <p class="logo-name"><span class="logo-web">Web </span>Studio</p>
+        <a href="./index.html" class="logo list">
+          <span class="logo-web">Web </span>Studio</p>
         </a>
 
         <ul class="site-nav list">
@@ -29,23 +29,20 @@
           <li class="item"><a href="#" class="link">Контакты</a></li>
         </ul>
       </nav>
-
-      <div class="contacts">
         <ul class="auth-nav list">
           <li class="item">
-            <a href="#" class="link">info@devstudio.com</a><img src="./images/envelope.svg" alt="Конверт" />
+            <a href="#" class="link">info@devstudio.com</a><img src="./images/envelope.svg" alt="Конверт" class="header-icon" />
           </li>
           <li class="item">
-            <a href="#" class="link">+38 096 111 11 11</a><img src="./images/cell-phone.svg" alt="Телефон" />
+            <a href="#" class="link">+38 096 111 11 11</a><img src="./images/cell-phone.svg" alt="Телефон" class="header-icon" />
           </li>
         </ul>
-      </div>
       </div>
       </header>
     <!--блок "герой"-->
     <main>
-      <section class="hero">
-        <div class="container centered">
+      <section class=hero">
+        <div class="hero-container">
         <h1 class="hero-name">
           эффективные решения<br />
           для вашего бизнеса
@@ -56,8 +53,8 @@
 
       <!--Наши преимущества-->
       <section class="section">
-      <div class="box container">
-  <h2 class="list">Наши преимущества</h2>
+      <div class=" box container border">
+    <!--<h2></h2>-->
 <ul class="advantages list">
   <li class="item">
     <a href="#" class="link"><img src="./images/attension-details.svg" alt="Антенна" class="img" /></a>
@@ -76,7 +73,7 @@
     </p>
   </li>
   <li class="item">
-    <a href="#" class="link" class="link"><img src="./images/diagram.svg" alt="График планирования" class="img" /></a>
+    <a href="#" class="link"><img src="./images/diagram.svg" alt="График планирования" class="img" /></a>
     <h3 class="list">Планирование</h3>
     <p class="list">
       Равным образом консультация с широким активом в значительной
@@ -84,7 +81,7 @@
     </p>
   </li>
   <li class="item">
-    <a href="#" class="link" class="link"><img src="./images/astronaut.svg" alt="Астронавт" class="img" /></a>
+    <a href="#" class="link"><img src="./images/astronaut.svg" alt="Астронавт" class="img" /></a>
     <h3 class="list">Современные технологии</h3>
     <p class="list">
       Значимость этих проблем настолько очевидна, что реализация
@@ -95,7 +92,7 @@
 </div>
       </section>
       <!--чем мы занимаемся-->
-      <section class="section">
+      <section class="section ">
         <div class="box container">
           <h2 class="name list">Чем мы занимаемся</h2>
           <ul class="work-list list ">
@@ -123,13 +120,12 @@
           </div>
       </section>
       <!--наша команда-->
-      <section class="section-comand">
-        <div class="box container">
+      <section class="command">
+        <div class="team container">
         <h2 class="name list">Наша команда</h2>
-        <ul class="comand-list list">
+        <ul class="command-list list">
           <li class="item">
-            <a href="#" class="link"
-              ><img
+            <a href="#" class="link"><img
                 src="./images/John.svg"
                 alt="Фото Джона"
                 width="270"
@@ -138,20 +134,20 @@
             <h3 lang="en" class="title list">John Smith</h3>
             <p class="text list">Product Designer</p>
             <ul class="networks list">
-              <li class="item">
+              <li class="network-item">
                 <a href="#" 
                   ><img src="./images/instagram.svg" alt="Instagram"
                 /></a>
               </li>
-              <li class="item">
+              <li class="network-item">
                 <a href="#"><img src="./images/twitter.svg" alt="Twitter" /></a>
               </li>
-              <li class="item">
+              <li class="network-item">
                 <a href="#"
                   ><img src="./images/facebook.svg" alt="Facebook"
                 /></a>
               </li>
-              <li class="item">
+              <li class="network-item">
                 <a href="#"
                   ><img src="./images/linkedin.svg" alt="Linkedin"
                 /></a>
@@ -169,16 +165,16 @@
             <h3 lang="en" class="title list">Marta Stewar</h3>
             <p class="text list">Frontend Developer</p>
             <ul class="networks list">
-              <li class="item">
+              <li class="network-item">
                 <a href="#"><img src="./images/instagram.svg" alt="Instagram" /></a>
               </li>
-              <li class="item">
+              <li class="network-item">
                 <a href="#"><img src="./images/twitter.svg" alt="Twitter" /></a>
               </li>
-              <li class="item">
+              <li class="network-item">
                 <a href="#"><img src="./images/facebook.svg" alt="Facebook" /></a>
               </li>
-              <li class="item">
+              <li class="network-item">
                 <a href="#"><img src="./images/linkedin.svg" alt="Linkedin" /></a>
               </li>
             </ul>
@@ -243,44 +239,38 @@
         <ul class="customers-list list">
           <li class="item">
             <a href="#" class="link" aria-label="Ссылка на клиентов"
-              ><img src="./images/box.svg" alt="Квадрат" width="170" height="90" /><img
-                src="./images/box-logo1.svg"
-                alt="Логотип клиентов" class="log"
+              ><img src="./images/one.svg" 
+                alt="Логотип клиентов" class="log" width="170" height="90"
             /></a>
           </li>
           <li class="item">
             <a href="#" class="link" aria-label="Ссылка на клиентов"
-              ><img src="./images/box.svg" alt="Квадрат" width="170" height="90" /><img
-                src="./images/box-logo2.svg"
-                alt="Логотип клиентов"
+              ><img src="./images/two.svg"
+                alt="Логотип клиентов" width="170" height="90"
             /></a>
           </li>
           <li class="item">
             <a href="#" class="link" aria-label="Ссылка на клиентов">
-              <img src="./images/box.svg" alt="Квадрат" width="170" height="90" /><img
-                src="./images/box-logo3.svg"
-                alt="Логотип клиентов"
+          <img src="./images/three.svg"
+                alt="Логотип клиентов" width="170" height="90"
             /></a>
           </li>
           <li class="item">
             <a href="#" class="link" aria-label="Ссылка на клиентов">
-              <img src="./images/box.svg" alt="Квадрат" width="170" height="90" /><img
-                src="./images/box-logo4.svg"
-                alt="Логотип клиентов"
+              <img src="./images/four.svg"
+                alt="Логотип клиентов" width="170" height="90"
             /></a>
           </li>
           <li class="item">
             <a href="#" class="link" aria-label="Ссылка на клиентов">
-              <img src="./images/box.svg" alt="Квадрат" width="170" height="90" /><img
-                src="./images/box-logo5.svg"
-                alt="Логотип клиентов"
+              <img src="./images/five.svg"
+                alt="Логотип клиентов" width="170" height="90"
             /></a>
           </li>
           <li class="item">
             <a href="#" class="link" aria-label="Ссылка на клиентов">
-              <img src="./images/box.svg" alt="Квадрат" width="170" height="90" /><img
-                src="./images/box-logo6.svg"
-                alt="Логотип клиентов"
+              <img src="./images/six.svg"
+                alt="Логотип клиентов" width="170" height="90"
             /></a>
           </li>
         </ul>
@@ -289,76 +279,58 @@
     </main>
     <!--футер-->
     <footer class="footer">
-      <div class="box container">
       <!--Логотип-->
+      <div class="blocks container">
+      <div class="info-adress">
       <a href="#" class="logo">
-        <p class="logo-name"><span class="logo-web">Web </span>Studio</p>
-      </a>
+        <span class="logo-web">Web </span>Studio</a>
       <!--Адрес-->
-      <div>
-        <address class="adress">
-          г. Киев, пр-т Леси Украинки, 26<br /><span class="info"
-            >info@example.com<br />+38 099 111 11 11<br
-          /></span>
+      
+        <address class="adress"><span class="street">г. Киев, пр-т Леси Украинки, 26</span>
+         <a href="#" class="mail"> info@example.com </a>  <a href="#" class="tel"> +38 099 111 11 11 </a>
         </address>
       </div>
       <!--Присоединяйтесь-->
-      <div class="join-box">
-        <b class="join-list">присоединяйтесь</b>
-        <h3>Список социальных сетей</h3>
-        <ul>
+      <div class="slogan">
+        <div class="join">
+        <b class="text">присоединяйтесь</b>
+        <!--h3-->
+        <ul class="footer-links list">
           <li>
             <a href="#" aria-label="Ccылка на Инстаграм">
-              <img
-                src="./images/instagram-footer.svg"
-                alt="Иконка Инстаграма"
-              />Инстаграм</a
-            >
+              <img src="./images/ellipse-footer.svg" alt="Иконка Инстаграма" /></a>
           </li>
           <li>
-            <a href="#" aria-label="Ccылка на Твитер"
-              ><img src="./images/twitter-footer.svg" alt="Иконка Твитера" />
-              Твитер</a
-            >
+            <a href="#" aria-label="Ccылка на Твитер"><img src="./images/twitter-footer.svg" alt="Иконка Твитера" />
+             </a>
           </li>
           <li>
-            <a href="#" aria-label="Ccылка на Фейсбук"
-              ><img src="./images/facebook-footer.svg" alt="Иконка Фейсбука" />
-              Фейсбук</a
-            >
+            <a href="#" aria-label="Ccылка на Фейсбук"><img src="./images/facebook-footer.svg" alt="Иконка Фейсбука" />
+              </a>
           </li>
           <li>
-            <a href="#" aria-label="Ccылка на Линкедин"
-              ><img
-                src="./images/linkedin-footer.svg"
-                alt="Иконка Линкедина"
-              />Линкедин</a
-            >
+            <a href="#" aria-label="Ccылка на Линкедин"><img src="./images/linkedin-footer.svg"
+                alt="Иконка Линкедина" /></a>
           </li>
         </ul>
+        </div>
       </div>
       <!--Подпишитесь на рассылку-->
-      <div>
-        <b class="join-list">Подпишитесь на рассылку</b>
-        <ul>
+      <div class="slogan">
+        <div class="sign">
+        <b class="text">Подпишитесь на рассылку</b>
+        <ul class="list">
           <li></li>
           <li><button class="button-web">Подписаться</button></li>
         </ul>
       </div>
-      <div>
-        <p class="info">2020 | Developed by GoIT Students</p>
-      </div>
-      </div>
-    </footer>
-    <!--<a href="" class="btn"> <span class="btn-icon"></span>Нажми меня</a>
-    <a href="" class="sighn">Подпишись</a>
-    <div class="container"></div>
-    <div class="container-text">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis cum,
-      architecto dignissimos voluptas similique voluptatem dolore quo pariatur
-      porro nulla consequatur perspiciatis eos? Laboriosam natus doloribus nulla
-      numquam. Praesentium, fuga? -->
     </div>
+    <div class="info">
+        <p>2020 | Developed by GoIT Students</p> 
+      </div>
+     
+    </footer>
+    </body>
   </body>
 </html>
  
