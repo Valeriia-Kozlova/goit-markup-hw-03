@@ -52,6 +52,10 @@ ul {
  display: flex;
  align-items: center;
  justify-content: space-between;
+
+}
+.border {
+ border-bottom: border: 1px solid red; 
 }
 
 .main-nav {
@@ -447,6 +451,28 @@ margin-top: 21px;
 }
 /*portfolio.html*/
 /*Порфолио main */
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-top: 93px;
+  margin-bottom: 50px;
+  background-color: aquamarine;
+}
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 6px 22px;
+  margin-right: 8px;
+  border-radius: 4px;
+  background-color: var(--background-color);
+}
+.last {
+  margin-right: 0px;
+}
 
 
 .filters .button:hover,
