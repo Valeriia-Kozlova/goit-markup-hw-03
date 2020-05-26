@@ -458,6 +458,7 @@ margin-top: 21px;
   margin-top: 93px;
   margin-bottom: 50px;
   background-color: aquamarine;
+  outline: 1px solid black;
 }
 .button {
   font-weight: 500;
@@ -481,6 +482,7 @@ background-color:var(--accent-color);
 color: var(--white-color);
 font-family: inherit;
 }
+/*Наши работы*/
 .portfolio .title {
 color:var(--title-text-color);
 text-decoration: none;
@@ -488,6 +490,9 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
+}
+.is-hidden {
+  display: none;
 }
 .description {
 text-decoration: none;
