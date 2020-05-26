@@ -143,15 +143,6 @@ ul {
 .auth-nav .link:focus {
   color: #2196f3;
 }
-.header-icon {
-  margin-right: 10px;
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-
-
 
 /*Герой*/
 .hero-name{
@@ -397,12 +388,7 @@ letter-spacing: 0.03em;
 .tel {
   display: block;
 }
-.slogan.text {
-  margin-right: auto;
- 
-  
-}
-.slogan .text,
+
 .slogan .join {
 color: var(--white-color);
 text-transform: uppercase;
@@ -412,10 +398,13 @@ margin-right: 94px;
 margin-bottom: 21px;
 }
 
-.sign {
-  margin-right: 106px;
+.slogan .text {
+color: var(--white-color);
+text-transform: uppercase;
+font-size: 14px;
+line-height: 1.71;
+margin-bottom: 21px;
 }
-
 .info-adress {
   display: block;
   margin-right: 69px;
@@ -425,6 +414,7 @@ margin-bottom: 21px;
 }
 .footer-links {
   display: flex;
+  margin-top: 21px;
 }
 .footer-links li {
   margin-right: 10px;
@@ -432,32 +422,33 @@ margin-bottom: 21px;
 .footer-links li:last-child {
   margin-right: 0px;
 }
+
 .footer-links li :hover,
 .footer-links li :focus {
   color: var(--accent-color);
 }
 
-}
 .footer-links a{
   justify-content: 
+}
+
+.bottom-info {
+  text-align: center;
+  margin: 0px;
+  padding-top: 18px;
+  padding-bottom: 21px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+}
+.sign{
+margin-top: 21px;
 }
 /*portfolio.html*/
 /*Порфолио main */
 
-.info {
-  padding-top: 18px;
-  padding-bottom: 21px;
-  margin: 0px;
-}
 
-.button {
-background-color: var(--background-color);
-color:var(--title-text-color);
-font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-}
 .filters .button:hover,
 .filters .button:focus {
 background-color:var(--accent-color);
