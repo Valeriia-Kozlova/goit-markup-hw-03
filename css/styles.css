@@ -42,6 +42,7 @@ a {
 ul {
  list-style: none;
 }
+
 .list {
  list-style: none;
  padding: 0px;
@@ -61,14 +62,10 @@ ul {
 .main-nav {
  display: flex;
  align-items: center;
- height: inherit;
 }
 .main-nav .logo {
- display: inline-block;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  display: block;
   margin-right: 85px;
-  height: inherit;
 }
 
 
@@ -145,6 +142,9 @@ font-weight: 500;
 .auth-nav .link:focus {
   color: #2196f3;
 }
+.icon {
+  margin-right: 10px;
+}
 
 /*Герой*/
 .hero-name{
@@ -218,11 +218,7 @@ margin-bottom: 10px;
 font-size: 14px;
 line-height: 1.71;
 }
-.img {
-display: block;
-max-width: 100%;
-height: auto;
-}
+
 
 /*Чем мы занимаемся*/
 .section .name {
@@ -245,6 +241,11 @@ justify-content:space-between;
 }
 .work-list .item:last-child {
 margin-right: 0px;
+}
+.work-list img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .section .title {
 color:var(--white-color);
@@ -284,6 +285,11 @@ margin-right: 30px;
 .command .item {
 background-color: var(--white-color);
 border-radius: 4px;
+}
+.command img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .command-list .link {
   display: block;
@@ -430,10 +436,6 @@ margin-bottom: 21px;
   color: var(--accent-color);
 }
 
-.footer-links a{
-  justify-content: 
-}
-
 .bottom-info {
   text-align: center;
   margin: 0px;
@@ -454,6 +456,7 @@ margin-top: 21px;
 .main {
   padding-top: 93px;
   padding-bottom: 94px;
+  border: 1px solid #ECECEC;
 }
 .filters {
   display: flex;
