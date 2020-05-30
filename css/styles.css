@@ -163,14 +163,20 @@ ul {
   background-color:var(--accent-color);
   color: var(--white-color);
   font-family: inherit;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 10px 32px;
   min-width: 200px;
   height: 50px;
+}
+.button-web:hover,
+.button-web:focus {
+  background-color: var(--background-color);
+  color: var(--accent-color);
 }
 
 /*Наши преимушества*/
@@ -409,6 +415,7 @@ ul {
 .slogan .text {
   color: var(--white-color);
   text-transform: uppercase;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.71;
   margin-bottom: 21px;
@@ -446,14 +453,21 @@ ul {
   line-height: 2;
   letter-spacing: 0.03em;
 }
-.sign{
+.sign {
+  font-weight: 900;
+  display: block;
+  width: 200px;
+  height: 50px;
   margin-top: 21px;
+  padding: 10px 62px 10px 29px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 /*Порфолио main */
 
 .main {
-  padding-top: 93px;
+  padding-top: 94px;
   padding-bottom: 94px;
   border: 1px solid #ECECEC;
 }
@@ -551,3 +565,4 @@ ul {
   text-align: center;
   background-color: var(--primary-text-color);
 }
+____________________
